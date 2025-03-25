@@ -1,0 +1,25 @@
+{
+  "main_artwork_url": "https://example.com/artwork/mathletes/main.png",
+  "phase_artworks": {
+    "explore_url": "https://example.com/artwork/mathletes/explore.png",
+    "build_url": "https://example.com/artwork/mathletes/build.png",
+    "launch_url": "https://example.com/artwork/mathletes/launch.png"
+  },
+  "lesson_artworks": {
+    "explore": [
+      "https://example.com/artwork/mathletes/explore/lesson1.png",
+      "https://example.com/artwork/mathletes/explore/lesson2.png",
+      "https://example.com/artwork/mathletes/explore/lesson3.png"
+    ],
+    "build": [
+      "https://example.com/artwork/mathletes/build/lesson1.png",
+      "https://example.com/artwork/mathletes/build/lesson2.png",
+      "https://example.com/artwork/mathletes/build/lesson3.png"
+    ],
+    "launch": [
+      "https://example.com/artwork/mathletes/launch/lesson1.png",
+      "https://example.com/artwork/mathletes/launch/lesson2.png",
+      "https://example.com/artwork/mathletes/launch/lesson3.png"
+    ]
+  }
+}
