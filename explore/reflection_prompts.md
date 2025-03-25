@@ -1,0 +1,3 @@
+- What was the most surprising thing you learned about computational geometry? (type: text)
+- How do you think mathematical modeling can be applied to solve real-world problems? (type: text)
+- Which Python library did you find most useful for data visualization and why? (type: text)

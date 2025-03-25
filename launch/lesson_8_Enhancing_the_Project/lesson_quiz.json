@@ -1,0 +1,77 @@
+{
+    "lesson_quiz_content": {
+        "phase_name": "launch",
+        "lesson_number": 8,
+        "lesson_title": "Enhancing the Project",
+        "quiz_title": "Enhancing the Project Quiz",
+        "quiz_description": "This quiz tests your understanding of how to enhance and optimize your Python projects, focusing on adding new features, improving performance, and enhancing user experience.",
+        "questions": [
+            {
+                "question": "What is the purpose of the `colorama` library in Python projects?",
+                "options": [
+                    "To add sound effects to the project",
+                    "To add color to terminal outputs",
+                    "To improve code performance",
+                    "To debug the code"
+                ],
+                "answer": "To add color to terminal outputs",
+                "explanation": "The `colorama` library is used for adding color to terminal outputs, making the project visually appealing."
+            },
+            {
+                "question": "Which of the following code snippets correctly installs the `colorama` library?",
+                "options": [
+                    "`pip download colorama`",
+                    "`pip install colorama`",
+                    "`install colorama`",
+                    "`get colorama`"
+                ],
+                "answer": "`pip install colorama`",
+                "explanation": "The correct command to install a Python library using pip is `pip install <library_name>`."
+            },
+            {
+                "question": "Why is it beneficial to use functions for repetitive code?",
+                "options": [
+                    "Functions slow down the code execution",
+                    "Functions help organize code and avoid repetition",
+                    "Functions increase the size of the code",
+                    "Functions are not recommended for small projects"
+                ],
+                "answer": "Functions help organize code and avoid repetition",
+                "explanation": "Using functions helps in organizing the code better and avoids repetition by encapsulating repetitive logic."
+            },
+            {
+                "question": "What is the output of the following code?\n```python\nfrom colorama import Fore, Style\nprint(Fore.RED + \"Error!\" + Style.RESET_ALL)\n```",
+                "options": [
+                    "The text 'Error!' will be printed in red",
+                    "No output, the code is incorrect",
+                    "The text 'Error!' will be printed in blue",
+                    "The text 'Error!' will be printed without color"
+                ],
+                "answer": "The text 'Error!' will be printed in red",
+                "explanation": "The `Fore.RED` from `colorama` colors the text in red, and `Style.RESET_ALL` resets the color."
+            },
+            {
+                "question": "Which statement is true about user input in Python?",
+                "options": [
+                    "User input can only be integers",
+                    "User input is always stored as a string",
+                    "User input is automatically validated",
+                    "User input can only be text"
+                ],
+                "answer": "User input is always stored as a string",
+                "explanation": "In Python, user input retrieved using `input()` is stored as a string by default, even if it looks like a number."
+            },
+            {
+                "question": "How does the `cProfile` module help in Python projects?",
+                "options": [
+                    "It adds color to the project",
+                    "It profiles the code to identify time-consuming parts",
+                    "It makes the project interactive",
+                    "It simplifies the code"
+                ],
+                "answer": "It profiles the code to identify time-consuming parts",
+                "explanation": "The `cProfile` module is used to profile Python code, helping developers identify which parts of the code are consuming the most time."
+            }
+        ]
+    }
+}

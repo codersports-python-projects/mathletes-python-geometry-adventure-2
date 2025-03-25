@@ -1,0 +1,4 @@
+- What was the most challenging part of the project, and how did you overcome it? (type: text)
+- How do you think the skills you’ve learned in this project can be applied to real-world situations? (type: text)
+- What feature or concept are you most proud of, and why? (type: text)
+- If you could add one more feature to your project, what would it be and why? (type: text)

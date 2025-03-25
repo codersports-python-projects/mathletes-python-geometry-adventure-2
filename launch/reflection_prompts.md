@@ -1,0 +1,4 @@
+- What challenges did you face during the optimization of your code, and how did you overcome them? (type: text)
+- How did writing unit tests change your approach to coding and debugging? (type: text)
+- Why is documentation important in programming, and how did it help you in this project? (type: text)
+- What was the most rewarding part of deploying your project, and why? (type: text)

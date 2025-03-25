@@ -1,0 +1,88 @@
+{
+    "lesson_quiz_content": {
+        "phase_name": "launch",
+        "lesson_number": 7,
+        "lesson_title": "Testing and Debugging",
+        "quiz_title": "Mastering Testing and Debugging in Python",
+        "quiz_description": "This quiz tests your understanding of testing and debugging techniques in Python, ensuring code reliability and functionality. It's designed to reinforce your learning from the 'Testing and Debugging' lesson, helping you become a coding superhero.",
+        "questions": [
+            {
+                "question": "What is the primary purpose of testing your code?",
+                "options": [
+                    "To make the code run faster",
+                    "To catch errors early and improve code quality",
+                    "To make the code look better",
+                    "To add new features"
+                ],
+                "answer": "To catch errors early and improve code quality",
+                "explanation": "Testing is crucial for identifying errors early, ensuring the code works as intended and is reliable."
+            },
+            {
+                "question": "Which of the following is a basic testing method in Python?",
+                "options": [
+                    "Using breakpoints",
+                    "Using assertions",
+                    "Using comments",
+                    "Using variable naming conventions"
+                ],
+                "answer": "Using assertions",
+                "explanation": "Assertions are used to check if a condition is true, helping identify where errors occur in the code."
+            },
+            {
+                "question": "In the following code, what is the error?\n```python\ndef calculate_perimeter(side_length):\n    perimeter = side_length * 3\n    return perimeter\n```\n",
+                "options": [
+                    "The perimeter calculation should use `side_length * 4`",
+                    "The function name is incorrect",
+                    "There is a syntax error",
+                    "The return statement is missing"
+                ],
+                "answer": "The perimeter calculation should use `side_length * 4`",
+                "explanation": "A square has four sides, so the perimeter should be calculated as `side_length * 4`."
+            },
+            {
+                "question": "Why is debugging compared to solving a puzzle?",
+                "options": [
+                    "Because it involves using creative methods to find and fix errors",
+                    "Because it is always done with a team",
+                    "Because it always has a clear solution",
+                    "Because it involves guessing"
+                ],
+                "answer": "Because it involves using creative methods to find and fix errors",
+                "explanation": "Debugging requires analytical thinking and problem-solving skills to identify and resolve issues in the code."
+            },
+            {
+                "question": "How can print statements help in debugging?",
+                "options": [
+                    "They help by changing variable values",
+                    "They help by displaying variable values to check if they are correct",
+                    "They make the code run faster",
+                    "They help in writing new code"
+                ],
+                "answer": "They help by displaying variable values to check if they are correct",
+                "explanation": "Print statements provide insights into the values of variables at different points, helping identify where things might be going wrong."
+            },
+            {
+                "question": "Which tool is used to step through code line by line during debugging?",
+                "options": [
+                    "Debugger",
+                    "Compiler",
+                    "Editor",
+                    "Interpreter"
+                ],
+                "answer": "Debugger",
+                "explanation": "A debugger allows you to execute your code one line at a time, examining the state and logic at each step to find errors."
+            },
+            {
+                "question": "What does the following assertion check?\n```python\nassert calculate_area(5) == 25, \"The area should be 25 for a side of 5!\"\n```\n",
+                "options": [
+                    "If the function name is correct",
+                    "If the area calculation is correct for a side length of 5",
+                    "If the perimeter is correct",
+                    "If the syntax is correct"
+                ],
+                "answer": "If the area calculation is correct for a side length of 5",
+                "explanation": "The assertion checks that the function `calculate_area(5)` returns 25, verifying the correctness of the area calculation."
+            }
+        ]
+    }
+}
