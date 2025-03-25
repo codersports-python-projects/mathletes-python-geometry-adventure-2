@@ -1,0 +1,88 @@
+{
+    "lesson_quiz_content": {
+        "phase_name": "build",
+        "lesson_number": 5,
+        "lesson_title": "Implementing Core Features",
+        "quiz_title": "Mastering Core Features Quiz",
+        "quiz_description": "This quiz tests your knowledge on implementing core features in Python, focusing on geometric calculations and user interaction. Sharpen your skills by answering questions related to the lesson content and ensure you understand the key concepts of writing efficient and effective code.",
+        "questions": [
+            {
+                "question": "What is the output of the following code snippet?\n```python\ndef calculate_rectangle_area(length, width):\n    return length * width\n\nprint(calculate_rectangle_area(5, 3))\n```\n",
+                "options": [
+                    "15",
+                    "8",
+                    "10",
+                    "20"
+                ],
+                "answer": "15",
+                "explanation": "The function calculates the area of a rectangle by multiplying the length (5) by the width (3), resulting in 15."
+            },
+            {
+                "question": "Which Python function is used to get user input in an interactive program?",
+                "options": [
+                    "input()",
+                    "print()",
+                    "int()",
+                    "str()"
+                ],
+                "answer": "input()",
+                "explanation": "The input() function is used to take input from the user in Python."
+            },
+            {
+                "question": "How can you import the function `calculate_rectangle_area` from a file named `utils.py`?",
+                "options": [
+                    "import calculate_rectangle_area",
+                    "from utils import calculate_rectangle_area",
+                    "import utils",
+                    "from calculate_rectangle_area import utils"
+                ],
+                "answer": "from utils import calculate_rectangle_area",
+                "explanation": "The correct syntax to import a specific function from a module is `from module_name import function_name`."
+            },
+            {
+                "question": "What does the following code do?\n```python\nif choice == '1':\n    length = float(input(\"Enter the length of the rectangle: \"))\n    width = float(input(\"Enter the width of the rectangle: \"))\n    area = calculate_rectangle_area(length, width)\n    print(f\"The area of the rectangle is {area}.\")\n```\n",
+                "options": [
+                    "Calculates the area of a rectangle based on user input.",
+                    "Calculates the perimeter of a rectangle based on user input.",
+                    "Calculates the area of a triangle based on user input.",
+                    "Calculates the circumference of a circle based on user input."
+                ],
+                "answer": "Calculates the area of a rectangle based on user input.",
+                "explanation": "The code prompts the user to input the length and width of a rectangle, calculates the area using a predefined function, and prints the result."
+            },
+            {
+                "question": "Which of the following statements is true about the function `calculate_triangle_area(base, height)`?",
+                "options": [
+                    "It calculates half of the product of base and height.",
+                    "It calculates the sum of the base and height.",
+                    "It calculates the perimeter of a triangle.",
+                    "It calculates the area of a circle."
+                ],
+                "answer": "It calculates half of the product of base and height.",
+                "explanation": "The function calculates the area of a triangle, which is half of the product of its base and height."
+            },
+            {
+                "question": "What library is imported in the `calculate_circle_area` function to use the value of π (pi)?",
+                "options": [
+                    "math",
+                    "numpy",
+                    "random",
+                    "statistics"
+                ],
+                "answer": "math",
+                "explanation": "The `math` library is imported to use mathematical constants and functions, including π (pi)."
+            },
+            {
+                "question": "In a project, why are core features considered important?",
+                "options": [
+                    "They are optional additions to the project.",
+                    "They provide the foundation and functionality for the project.",
+                    "They are used for debugging purposes only.",
+                    "They are used to style the project."
+                ],
+                "answer": "They provide the foundation and functionality for the project.",
+                "explanation": "Core features are essential as they form the foundation and ensure the project is functional."
+            }
+        ]
+    }
+}

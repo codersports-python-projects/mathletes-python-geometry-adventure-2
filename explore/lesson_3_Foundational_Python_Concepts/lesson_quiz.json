@@ -1,0 +1,77 @@
+{
+    "lesson_quiz_content": {
+        "phase_name": "explore",
+        "lesson_number": 3,
+        "lesson_title": "Foundational Python Concepts",
+        "quiz_title": "Quiz on Foundational Python Concepts",
+        "quiz_description": "This quiz assesses your understanding of fundamental Python concepts such as functions, loops, and data structures, which are crucial for building efficient Python programs.",
+        "questions": [
+            {
+                "question": "What is the purpose of a function in Python?",
+                "options": [
+                    "To repeat a block of code until a condition is met",
+                    "To store collections of data",
+                    "To organize code into reusable blocks",
+                    "To iterate over a sequence"
+                ],
+                "answer": "To organize code into reusable blocks",
+                "explanation": "Functions help organize your code by grouping together related operations, making it reusable and easier to manage."
+            },
+            {
+                "question": "Which of the following is a correct way to define a function in Python?",
+                "options": [
+                    "def my_function:",
+                    "function my_function()",
+                    "def my_function():",
+                    "my_function() -> def"
+                ],
+                "answer": "def my_function():",
+                "explanation": "In Python, functions are defined using the 'def' keyword followed by the function name and parentheses."
+            },
+            {
+                "question": "How do you access the second element in a list called 'fruits'?",
+                "options": [
+                    "fruits[2]",
+                    "fruits[1]",
+                    "fruits[0]",
+                    "fruits[3]"
+                ],
+                "answer": "fruits[1]",
+                "explanation": "Lists in Python are zero-indexed, so the second element is accessed with index 1."
+            },
+            {
+                "question": "What will the following code output?\n\n```python\nfor i in range(3):\n    print(i)\n```\n",
+                "options": [
+                    "0 1 2",
+                    "1 2 3",
+                    "0 1 2 3",
+                    "3 2 1 0"
+                ],
+                "answer": "0 1 2",
+                "explanation": "The range(3) function generates numbers 0 through 2, and the for loop iterates over these numbers."
+            },
+            {
+                "question": "Which statement about dictionaries is true?",
+                "options": [
+                    "They can store duplicate keys.",
+                    "They are ordered collections.",
+                    "They use keys to access values.",
+                    "They can be indexed with numbers."
+                ],
+                "answer": "They use keys to access values.",
+                "explanation": "Dictionaries use keys to map to values, allowing for fast retrieval of data associated with those keys."
+            },
+            {
+                "question": "How can you iterate over a dictionary called 'scores' to print each key-value pair?",
+                "options": [
+                    "for key, value in scores:",
+                    "for key, value in scores.items():",
+                    "for scores in key, value:",
+                    "scores.forEach(key, value)"
+                ],
+                "answer": "for key, value in scores.items():",
+                "explanation": "The items() method returns a view object that displays a list of a dictionary's key-value tuple pairs, which can be iterated over in a loop."
+            }
+        ]
+    }
+}

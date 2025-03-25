@@ -1,0 +1,77 @@
+{
+    "lesson_quiz_content": {
+        "phase_name": "build",
+        "lesson_number": 6,
+        "lesson_title": "Integrating Modules and Features",
+        "quiz_title": "Mastering Module Integration in Python",
+        "quiz_description": "This quiz tests your understanding of integrating modules and functions in Python, as covered in Lesson 6 of Mathletes: Python Geometry Adventure 2. You'll explore concepts of project organization, module importation, and debugging techniques.",
+        "questions": [
+            {
+                "question": "What is the primary role of `main.py` in a Python project?",
+                "options": [
+                    "To store all utility functions",
+                    "To serve as the entry point and control flow of the application",
+                    "To visualize data",
+                    "To handle user interactions"
+                ],
+                "answer": "To serve as the entry point and control flow of the application",
+                "explanation": "`main.py` is typically the main entry point of a Python application where the program begins execution and integrates all components."
+            },
+            {
+                "question": "Which import statement correctly imports the `calculate_circle_area` function from the `geometry_tools.py` module located inside a `modules` folder?",
+                "options": [
+                    "from geometry_tools import calculate_circle_area",
+                    "import modules.geometry_tools.calculate_circle_area",
+                    "from modules.geometry_tools import calculate_circle_area",
+                    "import calculate_circle_area from geometry_tools"
+                ],
+                "answer": "from modules.geometry_tools import calculate_circle_area",
+                "explanation": "The correct syntax to import a function from a module located in a subdirectory in Python is `from <directory>.<module> import <function>`."
+            },
+            {
+                "question": "Why is it important to organize your project structure with separate modules?",
+                "options": [
+                    "To make the project look complex",
+                    "To improve code readability and maintainability",
+                    "To prevent Python from running the code",
+                    "To avoid using functions"
+                ],
+                "answer": "To improve code readability and maintainability",
+                "explanation": "Organizing code into modules allows for better readability and maintainability, making it easier to debug and extend the project."
+            },
+            {
+                "question": "What is a common method for debugging Python code during integration?",
+                "options": [
+                    "Ignoring error messages",
+                    "Using print statements to trace execution",
+                    "Deleting code randomly",
+                    "Changing all variables to global"
+                ],
+                "answer": "Using print statements to trace execution",
+                "explanation": "Print statements help track the flow of execution and variables, making it easier to identify where issues may occur."
+            },
+            {
+                "question": "In the context of the lesson, what does integration refer to?",
+                "options": [
+                    "Creating new Python syntax",
+                    "Combining modules and features into a functioning application",
+                    "Learning a new programming language",
+                    "Writing code without any errors"
+                ],
+                "answer": "Combining modules and features into a functioning application",
+                "explanation": "Integration involves bringing together different parts of a project, such as modules and features, to work as a whole application."
+            },
+            {
+                "question": "What should you do if you encounter an error message while running your Python program?",
+                "options": [
+                    "Ignore the message and continue coding",
+                    "Read the error message carefully to diagnose the issue",
+                    "Restart the computer",
+                    "Uninstall Python"
+                ],
+                "answer": "Read the error message carefully to diagnose the issue",
+                "explanation": "Error messages provide valuable information about what went wrong, which can help in diagnosing and fixing the issue."
+            }
+        ]
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "lesson_quiz_content": {
+        "phase_name": "explore",
+        "lesson_number": 2,
+        "lesson_title": "Reviewing Design Documents",
+        "quiz_title": "Understanding Design Documents and Pseudocode",
+        "quiz_description": "This quiz tests your understanding of design documents, pseudocode, and project architecture, ensuring you're prepared to tackle any Python project with confidence.",
+        "questions": [
+            {
+                "question": "What is the primary purpose of a design document in a Python project?",
+                "options": [
+                    "To outline the theoretical mathematical concepts used in the project.",
+                    "To provide a detailed guide on the structure and flow of the project.",
+                    "To list all Python libraries used.",
+                    "To serve as a user manual."
+                ],
+                "answer": "To provide a detailed guide on the structure and flow of the project.",
+                "explanation": "Design documents serve as blueprints for the project, detailing its structure and flow."
+            },
+            {
+                "question": "Which of the following best describes pseudocode?",
+                "options": [
+                    "A detailed Python script.",
+                    "A simplified code written in Python syntax.",
+                    "A plain language description of what the code will do.",
+                    "A random sequence of code snippets."
+                ],
+                "answer": "A plain language description of what the code will do.",
+                "explanation": "Pseudocode is written in plain language to help plan the code structure before actual coding."
+            },
+            {
+                "question": "In the context of project architecture, what does the main program typically do?",
+                "options": [
+                    "Handles user input and output exclusively.",
+                    "Coordinates activities and interactions between different components.",
+                    "Only performs calculations.",
+                    "Stores and retrieves data from databases."
+                ],
+                "answer": "Coordinates activities and interactions between different components.",
+                "explanation": "The main program acts as the central hub, coordinating interactions between various components."
+            },
+            {
+                "question": "Consider the following pseudocode snippet:\n\n1. Start\n2. Input radius of the circle\n3. Compute area using the formula: area = π * radius * radius\n4. Output the area\n5. End\n\nWhat is the purpose of this pseudocode?",
+                "options": [
+                    "To calculate the circumference of a circle.",
+                    "To find the diameter of a circle.",
+                    "To compute the area of a circle.",
+                    "To determine the volume of a sphere."
+                ],
+                "answer": "To compute the area of a circle.",
+                "explanation": "The pseudocode outlines steps to calculate the area of a circle using the formula π * radius * radius."
+            },
+            {
+                "question": "Which section in a design document would you look at to understand how different parts of a project interact?",
+                "options": [
+                    "Purpose",
+                    "Components",
+                    "Interaction",
+                    "Summary"
+                ],
+                "answer": "Interaction",
+                "explanation": "The 'Interaction' section details how different parts of the project communicate and function together."
+            },
+            {
+                "question": "Why is pseudocode an important tool in programming?",
+                "options": [
+                    "It helps in debugging the final code.",
+                    "It is written in a complex language to challenge programmers.",
+                    "It allows planning of the code logic before actual coding.",
+                    "It is used to teach Python syntax."
+                ],
+                "answer": "It allows planning of the code logic before actual coding.",
+                "explanation": "Pseudocode helps programmers plan and think through the logic without worrying about syntax."
+            },
+            {
+                "question": "Which of the following is NOT a component typically included in a design document?",
+                "options": [
+                    "Purpose",
+                    "Components",
+                    "Python code",
+                    "Interaction"
+                ],
+                "answer": "Python code",
+                "explanation": "Design documents generally do not include actual code but rather descriptions and plans of the code structure."
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "phases": [
+        {
+            "phase_name": "explore",
+            "phase_overview": "In the Explore phase, students will be introduced to the project's purpose, review key design documents, and cover foundational coding concepts necessary for the project.",
+            "lessons": [
+                {
+                    "lesson_title": "Introduction to Mathletes: Python Geometry Adventure 2",
+                    "lesson_number": 1,
+                    "lesson_overview": "Introduce the project, its goals, and the learning outcomes. Discuss the importance of combining mathematics with Python programming."
+                },
+                {
+                    "lesson_title": "Reviewing Design Documents",
+                    "lesson_number": 2,
+                    "lesson_overview": "Examine the detailed design documents, including pseudocode and architecture, to understand the project structure and flow."
+                },
+                {
+                    "lesson_title": "Foundational Python Concepts",
+                    "lesson_number": 3,
+                    "lesson_overview": "Review essential Python programming concepts that will be used throughout the project, such as functions, loops, and data structures."
+                }
+            ]
+        },
+        {
+            "phase_name": "build",
+            "phase_overview": "In the Build phase, students will progressively develop the project codebase using provided skeleton files, focusing on implementing core functionalities.",
+            "lessons": [
+                {
+                    "lesson_title": "Setting Up the Project Environment",
+                    "lesson_number": 4,
+                    "lesson_overview": "Guide students through setting up their development environment and understanding the provided skeleton files."
+                },
+                {
+                    "lesson_title": "Implementing Core Features",
+                    "lesson_number": 5,
+                    "lesson_overview": "Focus on developing the core functionalities of the project, such as geometric calculations and user interaction."
+                },
+                {
+                    "lesson_title": "Integrating Modules and Features",
+                    "lesson_number": 6,
+                    "lesson_overview": "Teach students how to integrate different modules and features to create a cohesive application."
+                }
+            ]
+        },
+        {
+            "phase_name": "launch",
+            "phase_overview": "In the Launch phase, students will test, debug, and enhance the project to produce a robust final product ready for demonstration.",
+            "lessons": [
+                {
+                    "lesson_title": "Testing and Debugging",
+                    "lesson_number": 7,
+                    "lesson_overview": "Introduce testing methodologies and debugging techniques to ensure the project functions correctly."
+                },
+                {
+                    "lesson_title": "Enhancing the Project",
+                    "lesson_number": 8,
+                    "lesson_overview": "Guide students in adding enhancements and optimizations to improve the project's performance and user experience."
+                },
+                {
+                    "lesson_title": "Final Review and Demonstration",
+                    "lesson_number": 9,
+                    "lesson_overview": "Conduct a final review of the project and prepare students to demonstrate their completed work."
+                }
+            ]
+        }
+    ]
+}

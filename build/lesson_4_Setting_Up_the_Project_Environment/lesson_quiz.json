@@ -1,0 +1,88 @@
+{
+    "lesson_quiz_content": {
+        "phase_name": "build",
+        "lesson_number": 4,
+        "lesson_title": "Setting Up the Project Environment",
+        "quiz_title": "Setting Up Your Python Project Environment",
+        "quiz_description": "This quiz tests your understanding of setting up a Python project environment, navigating project structures, and using the skeleton files to kickstart your Mathletes coding adventure.",
+        "questions": [
+            {
+                "question": "What is the first step in setting up your Python coding environment?",
+                "options": [
+                    "Install a code editor",
+                    "Run a Python script",
+                    "Install Python",
+                    "Create a main.py file"
+                ],
+                "answer": "Install Python",
+                "explanation": "The first step is to install Python, as it is the core programming language you'll be using."
+            },
+            {
+                "question": "Which of the following is NOT a recommended code editor for Python projects?",
+                "options": [
+                    "Visual Studio Code",
+                    "PyCharm",
+                    "Thonny",
+                    "Microsoft Word"
+                ],
+                "answer": "Microsoft Word",
+                "explanation": "Microsoft Word is a word processor, not a code editor. Visual Studio Code, PyCharm, and Thonny are recommended for coding."
+            },
+            {
+                "question": "In the project structure, where should you write your main code?",
+                "options": [
+                    "utils.py",
+                    "main.py",
+                    "feature1.py",
+                    "project-directory/"
+                ],
+                "answer": "main.py",
+                "explanation": "The main.py file is intended to be the launchpad for your main code."
+            },
+            {
+                "question": "What command would you use to print 'Hello, Mathletes!' in Python?",
+                "options": [
+                    "echo 'Hello, Mathletes!'",
+                    "print('Hello, Mathletes!')",
+                    "console.log('Hello, Mathletes!')",
+                    "printf('Hello, Mathletes!')"
+                ],
+                "answer": "print('Hello, Mathletes!')",
+                "explanation": "In Python, the print() function is used to display text."
+            },
+            {
+                "question": "What should you do if your Python script doesn't run due to a 'Python not found' error?",
+                "options": [
+                    "Reinstall Python",
+                    "Make sure Python is added to your PATH",
+                    "Restart your computer",
+                    "Check your internet connection"
+                ],
+                "answer": "Make sure Python is added to your PATH",
+                "explanation": "If Python is not found, it often means it is not added to your PATH, which allows the system to recognize the Python command."
+            },
+            {
+                "question": "What's the purpose of the utils.py file in your project?",
+                "options": [
+                    "To start your main program",
+                    "To store helper functions",
+                    "To hold configuration settings",
+                    "To document the project"
+                ],
+                "answer": "To store helper functions",
+                "explanation": "The utils.py file is used for storing helper functions that can be used throughout the project."
+            },
+            {
+                "question": "Which folder is used for adding additional features to your project?",
+                "options": [
+                    "/",
+                    "utils.py",
+                    "features/",
+                    "config/"
+                ],
+                "answer": "features/",
+                "explanation": "The features/ folder is designated for additional features or modules in your project."
+            }
+        ]
+    }
+}
